@@ -66,7 +66,7 @@ const {name,mob,email,addr,otp,enq}=inpval;
     
     <div className="container">
       <div className="mt-5">
-      <form>
+      {/* <form> */}
         <div className="row">
           <div className="mb-3 col-lg-6 col-md-6 col-12">
             <label htmlFor="exampleInputEmail1" className="form-label">
@@ -154,7 +154,7 @@ const {name,mob,email,addr,otp,enq}=inpval;
             Submit
           </button>
         </div>
-      </form>
+      {/* </form> */}
       </div>
     </div>
   );
