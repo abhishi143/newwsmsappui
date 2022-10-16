@@ -58,6 +58,7 @@ const {name,mob,email,addr,otp,enq}=inpval;
     return otpp;
     
   }
+  console.log("generateotppp-",generateotp());
  
   // const randno = Math.floor(Math.random()*10000);
 
@@ -97,7 +98,6 @@ const {name,mob,email,addr,otp,enq}=inpval;
             />
             <div className="mt-2">
             <button id="button1" className="btn btn-dark" onClick={generateotp}>Generate</button>
-            console.log("generateotppp-",generateotp());
             </div>
           </div>
           <div className="mb-3 col-lg-6 col-md-6 col-12">
