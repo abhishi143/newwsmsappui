@@ -58,7 +58,7 @@ const {name,mob,email,addr,otp,enq}=inpval;
     return otpp;
     
   }
-  console.log("generateotppp-",generateotp());
+  // console.log("generateotppp-",generateotp());
  
   // const randno = Math.floor(Math.random()*10000);
 
