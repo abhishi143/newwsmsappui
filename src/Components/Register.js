@@ -52,7 +52,7 @@ const {name,mob,email,addr,otp,enq}=inpval;
   }
   function generateotp() {
     let otpp="";
-    for(let i=0;i<6;i++){
+    for(let i=0;i<4;i++){
       otpp+=Math.floor(Math.random()*10);
     }
     return otpp;
